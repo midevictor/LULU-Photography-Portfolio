@@ -597,7 +597,9 @@ footer{
     left: 0;
     top: 0;
     filter: saturate(1) brightness(1);
-    max-width: fit-content;
+    /* max-width: fit-content; */
+    max-width: 100%;
+    margin: 0 auto;
   }
   /* .about_image:hover .about_image-lg{
     /* border: none; */
